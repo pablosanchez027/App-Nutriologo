@@ -14,6 +14,7 @@
 		3D4729022282466F00018190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4729002282466F00018190 /* LaunchScreen.storyboard */; };
 		3D47290D2282467000018190 /* NutriologoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47290C2282467000018190 /* NutriologoAppTests.swift */; };
 		3D4729182282467000018190 /* NutriologoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4729172282467000018190 /* NutriologoAppUITests.swift */; };
+		3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B587D228273B80092525B /* InicioSesionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D4729132282467000018190 /* NutriologoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriologoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4729172282467000018190 /* NutriologoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriologoAppUITests.swift; sourceTree = "<group>"; };
 		3D4729192282467000018190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9B587D228273B80092525B /* InicioSesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,9 @@
 		3D4728EB2282466100018190 = {
 			isa = PBXGroup;
 			children = (
+				3D9B587C228272C10092525B /* Resources */,
+				3D9B587B228272260092525B /* ViewController */,
+				3D47292622826B5900018190 /* Views */,
 				3D4728F62282466200018190 /* NutriologoApp */,
 				3D47290B2282467000018190 /* NutriologoAppTests */,
 				3D4729162282467000018190 /* NutriologoAppUITests */,
@@ -98,10 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				3D4728F72282466200018190 /* AppDelegate.swift */,
-				3D4728F92282466200018190 /* ViewController.swift */,
-				3D4728FB2282466200018190 /* Main.storyboard */,
-				3D4728FE2282466F00018190 /* Assets.xcassets */,
-				3D4729002282466F00018190 /* LaunchScreen.storyboard */,
 				3D4729032282466F00018190 /* Info.plist */,
 			);
 			path = NutriologoApp;
@@ -123,6 +124,32 @@
 				3D4729192282467000018190 /* Info.plist */,
 			);
 			path = NutriologoAppUITests;
+			sourceTree = "<group>";
+		};
+		3D47292622826B5900018190 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D4728FB2282466200018190 /* Main.storyboard */,
+				3D4729002282466F00018190 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3D9B587B228272260092525B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D4728F92282466200018190 /* ViewController.swift */,
+				3D9B587D228273B80092525B /* InicioSesionController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D9B587C228272C10092525B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D4728FE2282466F00018190 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */,
 				3D4728FA2282466200018190 /* ViewController.swift in Sources */,
 				3D4728F82282466200018190 /* AppDelegate.swift in Sources */,
 			);
