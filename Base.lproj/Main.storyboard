@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="917.60000000000002" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Dieta Detalle Controller-->
         <scene sceneID="cbg-Fb-Awl">
             <objects>
-                <viewController id="PRN-26-V7h" sceneMemberID="viewController">
+                <viewController id="PRN-26-V7h" customClass="DietaDetalleController" customModule="NutriologoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JSy-Ez-gL5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

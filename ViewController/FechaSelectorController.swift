@@ -27,11 +27,11 @@ class FechaSelectorController : UIViewController {
         //ToolBar
         let toolbar = UIToolbar();
         toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Aceptar", style: .plain, target: self, action: #selector(AceptarDatePicker));
+        let aceptarBoton = UIBarButtonItem(title: "Aceptar", style: .plain, target: self, action: #selector(AceptarDatePicker));
         let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
-        let cancelButton = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(CancelarDatePicker));
+        let cancelarButton = UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(CancelarDatePicker));
         
-        toolbar.setItems([doneButton,spaceButton,cancelButton], animated: false)
+        toolbar.setItems([cancelarButton,spaceButton,aceptarBoton], animated: false)
         
         txtFecha.inputAccessoryView = toolbar
         txtFecha.inputView = datePicker
@@ -41,7 +41,7 @@ class FechaSelectorController : UIViewController {
     @objc func AceptarDatePicker(){
         
         let formatter = DateFormatter()
-        formatter.dateFormat = "dd/MM/yyyy"
+        formatter.dateFormat = "yyyy-MM-dd"
         txtFecha.text = formatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
