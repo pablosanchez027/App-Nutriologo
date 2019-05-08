@@ -15,6 +15,7 @@
 		3D47290D2282467000018190 /* NutriologoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47290C2282467000018190 /* NutriologoAppTests.swift */; };
 		3D4729182282467000018190 /* NutriologoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4729172282467000018190 /* NutriologoAppUITests.swift */; };
 		3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B587D228273B80092525B /* InicioSesionController.swift */; };
+		3DD84E3E2282837F00442E78 /* FechaSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD84E3D2282837F00442E78 /* FechaSelectorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D4729172282467000018190 /* NutriologoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriologoAppUITests.swift; sourceTree = "<group>"; };
 		3D4729192282467000018190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9B587D228273B80092525B /* InicioSesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionController.swift; sourceTree = "<group>"; };
+		3DD84E3D2282837F00442E78 /* FechaSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechaSelectorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				3D4728F92282466200018190 /* ViewController.swift */,
 				3D9B587D228273B80092525B /* InicioSesionController.swift */,
+				3DD84E3D2282837F00442E78 /* FechaSelectorController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD84E3E2282837F00442E78 /* FechaSelectorController.swift in Sources */,
 				3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */,
 				3D4728FA2282466200018190 /* ViewController.swift in Sources */,
 				3D4728F82282466200018190 /* AppDelegate.swift in Sources */,
