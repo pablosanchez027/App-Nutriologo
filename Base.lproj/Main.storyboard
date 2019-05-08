@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,33 +30,67 @@
                                 <rect key="frame" x="142" y="406" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Iniciar Sesión"/>
+                                <connections>
+                                    <action selector="doTapEntrar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAu-J7-wUq"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6HP-gv-qoB">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6HP-gv-qoB">
                                 <rect key="frame" x="16" y="294" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-rx-iDF">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-rx-iDF">
                                 <rect key="frame" x="16" y="342" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los datos de sesión no son válidos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiX-Km-oq2">
+                                <rect key="frame" x="16" y="380" width="168" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jiX-Km-oq2" firstAttribute="top" secondItem="fI2-rx-iDF" secondAttribute="bottom" constant="8" id="AVw-Ng-Z09"/>
                             <constraint firstItem="fI2-rx-iDF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DMP-OY-bPT"/>
+                            <constraint firstItem="fI2-rx-iDF" firstAttribute="top" secondItem="6HP-gv-qoB" secondAttribute="bottom" constant="18" id="KUF-z5-9Zv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6HP-gv-qoB" secondAttribute="trailing" constant="16" id="OX9-i3-e4i"/>
+                            <constraint firstItem="jiX-Km-oq2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="U0Q-69-K8D"/>
+                            <constraint firstItem="6HP-gv-qoB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="274" id="ZF3-iT-7ci"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fI2-rx-iDF" secondAttribute="trailing" constant="16" id="d77-EK-0P0"/>
                             <constraint firstItem="6HP-gv-qoB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dpz-K6-SHd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lblAviso" destination="jiX-Km-oq2" id="XgX-Xj-KfS"/>
+                        <outlet property="txtContra" destination="fI2-rx-iDF" id="S1V-N2-1Vi"/>
+                        <outlet property="txtCorreo" destination="6HP-gv-qoB" id="Pcd-tv-4vr"/>
+                        <segue destination="VpM-d7-1m8" kind="show" identifier="goToEntrar" id="rCH-Uv-P9y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K9I-0R-pL8">
+            <objects>
+                <viewController id="VpM-d7-1m8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5d6-Ba-7Xs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4Xt-7I-aTx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4b-Pe-0eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="118"/>
         </scene>
     </scenes>
 </document>
