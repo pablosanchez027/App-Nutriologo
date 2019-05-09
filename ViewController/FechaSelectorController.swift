@@ -9,7 +9,9 @@
 import Foundation
 import UIKit
 
-class FechaSelectorController : UIViewController {
+class FechaSelectorController: UIViewController {
+    var fechaString: String = ""
+    
     @IBOutlet weak var txtFecha: UITextField!
     
     let datePicker = UIDatePicker()
@@ -23,6 +25,14 @@ class FechaSelectorController : UIViewController {
     func showDatePicker(){
         //Formate Date
         datePicker.datePickerMode = .date
+        
+        datePicker.minimumDate = Date()
+        
+        var sevenDaysfromNow: Date {
+            return (Calendar.current as NSCalendar).date(byAdding: .day, value: 7, to: Date(), options: [])!
+        }
+        
+        datePicker.maximumDate = sevenDaysfromNow
         
         //ToolBar
         let toolbar = UIToolbar();
@@ -41,8 +51,34 @@ class FechaSelectorController : UIViewController {
     @objc func AceptarDatePicker(){
         
         let formatter = DateFormatter()
+        
+        let myCalendar = Calendar(identifier: .gregorian)
+        let weekDay = myCalendar.component(.weekday, from: datePicker.date)
+        var dayName:String = ""
+        
+        switch weekDay {
+        case 1:
+            dayName = "Domingo"
+        case 2:
+            dayName = "Lunes"
+        case 3:
+            dayName = "Martes"
+        case 4:
+            dayName = "Miércoles"
+        case 5:
+            dayName = "Jueves"
+        case 6:
+            dayName = "Viernes"
+        case 7:
+            dayName = "Sábado"
+        default:
+            dayName = "Día de la semana"
+        }
+        
+        formatter.dateFormat = "dd"
+        txtFecha.text = dayName + " " + formatter.string(from: datePicker.date)
         formatter.dateFormat = "yyyy-MM-dd"
-        txtFecha.text = formatter.string(from: datePicker.date)
+        fechaString = formatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
     
