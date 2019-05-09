@@ -166,25 +166,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desayuno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9De-2j-X9e">
-                                <rect key="frame" x="16" y="80" width="76.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título Desayuno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9De-2j-X9e">
+                                <rect key="frame" x="16" y="80" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJQ-xO-cav">
-                                <rect key="frame" x="16" y="257" width="59" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título Comida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJQ-xO-cav">
+                                <rect key="frame" x="16" y="257" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTa-ge-VEP">
-                                <rect key="frame" x="16" y="431" width="40" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título Cena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTa-ge-VEP">
+                                <rect key="frame" x="16" y="431" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo Desayuno" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6te-Po-p9e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción Desayuno" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6te-Po-p9e">
                                 <rect key="frame" x="16" y="109" width="359" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="OmA-Mj-mUP"/>
@@ -193,7 +193,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo Comida" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r58-Z8-jK8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción Comida" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r58-Z8-jK8">
                                 <rect key="frame" x="16" y="283" width="359" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="xBY-TP-cdA"/>
@@ -202,7 +202,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo Cena" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE4-Ak-apd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción Cena" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE4-Ak-apd">
                                 <rect key="frame" x="16" y="457" width="359" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="JH3-By-O7f"/>
@@ -211,30 +211,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yK2-pI-hGG">
-                                <rect key="frame" x="16" y="105" width="359" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="RMe-qA-noO" appends="YES" id="FfX-pi-fRs"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2QW-w7-fHw">
-                                <rect key="frame" x="16" y="279" width="359" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="N0m-ms-mO7" appends="YES" id="UKr-k7-AIE"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UFM-hC-kay">
-                                <rect key="frame" x="16" y="456" width="359" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="rtW-HY-lP0" appends="YES" id="Fi7-Cn-fpF"/>
-                                </connections>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -258,64 +234,17 @@
                         <viewLayoutGuide key="safeArea" id="68E-sM-DOb"/>
                     </view>
                     <connections>
-                        <outlet property="txtTituloCena" destination="TE4-Ak-apd" id="TUX-ga-SjU"/>
-                        <outlet property="txtTituloComida" destination="r58-Z8-jK8" id="VjL-xA-FjN"/>
-                        <outlet property="txtTituloDesayuno" destination="6te-Po-p9e" id="0gw-pR-Mnh"/>
-                        <segue destination="jJ9-jL-4l8" kind="show" identifier="goToDescripcion" id="wtN-Fc-xWp"/>
+                        <outlet property="txtDescripcionCena" destination="TE4-Ak-apd" id="6iZ-yr-h3j"/>
+                        <outlet property="txtDescripcionComida" destination="r58-Z8-jK8" id="c9f-CK-n6O"/>
+                        <outlet property="txtDescripcionDesayuno" destination="6te-Po-p9e" id="q0E-qS-QHa"/>
+                        <outlet property="txtTituloCena" destination="eTa-ge-VEP" id="a5B-FN-vOp"/>
+                        <outlet property="txtTituloComida" destination="MJQ-xO-cav" id="Qqr-il-swU"/>
+                        <outlet property="txtTituloDesayuno" destination="9De-2j-X9e" id="Xk3-kE-3PA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhZ-Hn-6W5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="RMe-qA-noO" userLabel="btnDesayuno">
-                    <connections>
-                        <action selector="btnDesayuno:" destination="PRN-26-V7h" id="Tie-WJ-aTF"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="N0m-ms-mO7" userLabel="btnComida">
-                    <connections>
-                        <action selector="btnComida:" destination="PRN-26-V7h" id="cNe-Jf-Wfm"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="rtW-HY-lP0" userLabel="btnCena">
-                    <connections>
-                        <action selector="btnCena:" destination="PRN-26-V7h" id="O6B-Kg-iST"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1728.8" y="116.49175412293854"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="LPP-09-Oau">
-            <objects>
-                <viewController id="jJ9-jL-4l8" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NTa-fI-1Dn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYn-Zk-eel">
-                                <rect key="frame" x="16" y="80" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripcion" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sA3-9l-ocM">
-                                <rect key="frame" x="16" y="109" width="343" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="yYn-Zk-eel" firstAttribute="leading" secondItem="1pe-CX-I2H" secondAttribute="leading" constant="16" id="Gwn-ew-5ti"/>
-                            <constraint firstItem="yYn-Zk-eel" firstAttribute="top" secondItem="1pe-CX-I2H" secondAttribute="top" constant="16" id="cwY-D8-w71"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="1pe-CX-I2H"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AuJ-QH-PQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2653.5999999999999" y="115.59220389805098"/>
         </scene>
     </scenes>
 </document>
