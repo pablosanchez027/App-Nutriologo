@@ -9,6 +9,19 @@
 import Foundation
 import UIKit
 
-class DietaDetalleController: UIViewController {
+class DietaDetalleController: UIViewController {    
+    @IBOutlet weak var txtTituloDesayuno: UILabel!
+    @IBOutlet weak var txtTituloComida: UILabel!
+    @IBOutlet weak var txtTituloCena: UILabel!
+    
+    @IBAction func btnDesayuno(_ sender: Any) {
+        performSegue(withIdentifier: "goToDescripcion", sender: self)
+    }
+    @IBAction func btnComida(_ sender: Any) {
+        performSegue(withIdentifier: "goToDescripcion", sender: self)
+    }
+    @IBAction func btnCena(_ sender: Any) {
+        performSegue(withIdentifier: "goToDescripcion", sender: self)
+    }
     
 }

@@ -15,8 +15,9 @@
 		3D47290D2282467000018190 /* NutriologoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47290C2282467000018190 /* NutriologoAppTests.swift */; };
 		3D4729182282467000018190 /* NutriologoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4729172282467000018190 /* NutriologoAppUITests.swift */; };
 		3D6CC5FC22828AA400D0BF74 /* DietaDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CC5FB22828AA400D0BF74 /* DietaDetalleController.swift */; };
-		3D6CC5FF22828B0B00D0BF74 /* Dieta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CC5FE22828B0B00D0BF74 /* Dieta.swift */; };
+		3D6CC5FF22828B0B00D0BF74 /* DietaNombres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CC5FE22828B0B00D0BF74 /* DietaNombres.swift */; };
 		3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B587D228273B80092525B /* InicioSesionController.swift */; };
+		3DD300FF2283B79800CC3920 /* DietaDescripciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD300FE2283B79800CC3920 /* DietaDescripciones.swift */; };
 		3DD84E3E2282837F00442E78 /* FechaSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD84E3D2282837F00442E78 /* FechaSelectorController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +53,9 @@
 		3D4729172282467000018190 /* NutriologoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriologoAppUITests.swift; sourceTree = "<group>"; };
 		3D4729192282467000018190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D6CC5FB22828AA400D0BF74 /* DietaDetalleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaDetalleController.swift; sourceTree = "<group>"; };
-		3D6CC5FE22828B0B00D0BF74 /* Dieta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieta.swift; sourceTree = "<group>"; };
+		3D6CC5FE22828B0B00D0BF74 /* DietaNombres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaNombres.swift; sourceTree = "<group>"; };
 		3D9B587D228273B80092525B /* InicioSesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionController.swift; sourceTree = "<group>"; };
+		3DD300FE2283B79800CC3920 /* DietaDescripciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaDescripciones.swift; sourceTree = "<group>"; };
 		3DD84E3D2282837F00442E78 /* FechaSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechaSelectorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +147,8 @@
 		3D6CC5FD22828AFC00D0BF74 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3D6CC5FE22828B0B00D0BF74 /* Dieta.swift */,
+				3D6CC5FE22828B0B00D0BF74 /* DietaNombres.swift */,
+				3DD300FE2283B79800CC3920 /* DietaDescripciones.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -301,9 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD84E3E2282837F00442E78 /* FechaSelectorController.swift in Sources */,
+				3DD300FF2283B79800CC3920 /* DietaDescripciones.swift in Sources */,
 				3D6CC5FC22828AA400D0BF74 /* DietaDetalleController.swift in Sources */,
 				3D9B587E228273B80092525B /* InicioSesionController.swift in Sources */,
-				3D6CC5FF22828B0B00D0BF74 /* Dieta.swift in Sources */,
+				3D6CC5FF22828B0B00D0BF74 /* DietaNombres.swift in Sources */,
 				3D4728FA2282466200018190 /* ViewController.swift in Sources */,
 				3D4728F82282466200018190 /* AppDelegate.swift in Sources */,
 			);
